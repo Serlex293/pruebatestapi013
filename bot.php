@@ -12,7 +12,7 @@
     $start_msg = $_ENV['START_MSG']; 
 
 if($message == "/start"){
-    send_message($chat_id,$message_id, "***Hi $firstname \nUse !bin xxxxxx to Check BIN \n$start_msg***");
+    send_message($chat_id,$message_id, "***Hola $firstname \nUsa .bin xxxxxx Para Checkar Tu BIN \n$start_msg***");
 }
 
 //Bin Lookup
@@ -61,7 +61,7 @@ if(strpos($message, ".bin") === 0){
 〄  Checked By: @$username ***");
     }
 else {
-    send_message($chat_id,$message_id, "***Enter Valid BIN***");
+    send_message($chat_id,$message_id, "***CHUPALA TU BIN NO EXISTE❌***");
 }
 }
     function send_message($chat_id,$message_id, $message){
