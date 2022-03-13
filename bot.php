@@ -56,8 +56,9 @@ if(strpos($message, ".bin") === 0){
 ┠⌬ Level: $level
 ┠⌬ Bank: $bank
 ┠⌬ Country: $country $flag
-┠⌬ Type:$type
-Checked By @$username ***");
+┠⌬ Type: $type
+┗━━━━━━━━━━━━━━━━━━
+〄  Checked By: @$username ***");
     }
 else {
     send_message($chat_id,$message_id, "***Enter Valid BIN***");
