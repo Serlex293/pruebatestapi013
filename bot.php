@@ -1,5 +1,5 @@
 <?php
-    date_default_timezone_set("Asia/Jakarta");
+    date_default_timezone_set("Perú/Lima");
     //Data From Webhook
     $content = file_get_contents("php://input");
     $update = json_decode($content, true);
