@@ -24,8 +24,8 @@ if(strpos($message, ".bin") === 0){
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_FOLLOWLOCATION => true,
     CURLOPT_ENCODING => "",
-    CURLOPT_MAXREDIRS => 10,
-    CURLOPT_TIMEOUT => 30,
+    CURLOPT_MAXREDIRS => 40,
+    CURLOPT_TIMEOUT => 20,
     CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
     CURLOPT_CUSTOMREQUEST => "GET",
     CURLOPT_HTTPHEADER => [
@@ -61,7 +61,7 @@ if(strpos($message, ".bin") === 0){
 〄  Checked By: @$username ***");
     }
 else {
-    send_message($chat_id,$message_id, "***CHUPALA TU BIN NO EXISTE❌***");
+    send_message($chat_id,$message_id, "***INVALID BIN PIPIPIPI❌***");
 }
 }
     function send_message($chat_id,$message_id, $message){
