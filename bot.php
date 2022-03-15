@@ -24,7 +24,7 @@ if(strpos($message, ".bin") === 0){
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_FOLLOWLOCATION => true,
     CURLOPT_ENCODING => "",
-    CURLOPT_MAXREDIRS => 40,
+    CURLOPT_MAXREDIRS => 10,
     CURLOPT_TIMEOUT => 2,
     CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
     CURLOPT_CUSTOMREQUEST => "GET",
@@ -61,7 +61,7 @@ if(strpos($message, ".bin") === 0){
 〄  Checked By: @$username ***");
     }
 else {
-    send_message($chat_id,$message_id, "***Oye negro, tu bin es una mierda❌***");
+    send_message($chat_id,$message_id, "***Oye negro, métete tu bin por el culo no me sirve❌***");
 }
 }
     function send_message($chat_id,$message_id, $message){
