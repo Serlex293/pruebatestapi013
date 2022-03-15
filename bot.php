@@ -61,7 +61,7 @@ if(strpos($message, ".bin") === 0){
 〄  Checked By: @$username ***");
     }
 else {
-    send_message($chat_id,$message_id, "***INVALID BIN PIPIPIPI❌***");
+    send_message($chat_id,$message_id, "***Oye negro, tu bin es una mierda❌***");
 }
 }
     function send_message($chat_id,$message_id, $message){
