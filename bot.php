@@ -1,5 +1,5 @@
 <?php
-    date_default_timezone_set("United States/California");
+    date_default_timezone_set("Asia/kolkata");
     //Data From Webhook
     $content = file_get_contents("php://input");
     $update = json_decode($content, true);
@@ -24,8 +24,8 @@ if(strpos($message, ".bin") === 0){
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_FOLLOWLOCATION => true,
     CURLOPT_ENCODING => "",
-    CURLOPT_MAXREDIRS => 15,
-    CURLOPT_TIMEOUT => 25,
+    CURLOPT_MAXREDIRS => 10,
+    CURLOPT_TIMEOUT => 30,
     CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
     CURLOPT_CUSTOMREQUEST => "GET",
     CURLOPT_HTTPHEADER => [
