@@ -48,10 +48,27 @@ if(strpos($message, ".bin") === 0){
  $flag = $data['data']['countryInfo']['emoji'];
  $result1 = $data['result'];
 
+            if (empty($levelname)) {
+            	$levelname = "Unavailable";
+            }
+
+            if (empty($typename)) {
+            	$typename = "Unavailable";
+            }
+            if (empty($brand)) {
+            	$brand = "Unavailable";
+            }
+            if (empty($bank)) {
+            	$bank = "Unavailable";
+            }
+            if (empty($bname)) {
+            	$bname = "Unavailable";
+            }
+            
     if ($result1 == true) {
-    send_message($chat_id,$message_id,"***VALID BIN✅***
-<b>┏━━━━━━━━━━━━━━━━━━
-┠⌬ BIN:</b> $bin
+    send_message($chat_id,$message_id,"***VALID BIN✅
+┏━━━━━━━━━━━━━━━━━━
+┠⌬ BIN:*** $bin
 ***┠⌬ Brand: $brand
 ┠⌬ Level: $level
 ┠⌬ Bank: $bank
