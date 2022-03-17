@@ -30,11 +30,10 @@ if(strpos($message, ".bin") === 0){
     CURLOPT_CUSTOMREQUEST => "GET",
     CURLOPT_HTTPHEADER => [
     "accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
-    "accept-language: en-GB,en-US;q=0.9,en;q=0.8,hi;q=0.7",
+    "accept-language: es-ES,es;q=0.9",
     "sec-fetch-dest: document",
     "sec-fetch-site: none",
-    "user-agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"
-   ],
+    "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36"],
    ]);
 
  $result = curl_exec($curl);
