@@ -68,7 +68,7 @@ if(strpos($message, ".bin") === 0){
     if ($result1 == true) {
     send_message($chat_id,$message_id,"VALID BIN✅
 ┏━━━━━━━━━━━━━━━━━━
-┠⌬ BIN: <p>$bin</p>
+┠⌬ BIN<b>: $bin</b>
 ┠⌬ Brand: $brand
 ┠⌬ Level: $level
 ┠⌬ Bank: $bank
