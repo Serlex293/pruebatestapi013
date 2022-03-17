@@ -49,26 +49,26 @@ if(strpos($message, ".bin") === 0){
  $result1 = $data['result'];
 
             if (empty($levelname)) {
-            	$levelname = "Unavailable";
+            	$levelname = "UNAVAILABLE";
             }
 
             if (empty($typename)) {
-            	$typename = "Unavailable";
+            	$typename = "UNAVAILABLE";
             }
             if (empty($brand)) {
-            	$brand = "Unavailable";
+            	$brand = "UNAVAILABLE";
             }
             if (empty($bank)) {
-            	$bank = "Unavailable";
+            	$bank = "UNAVAILABLE";
             }
             if (empty($bname)) {
-            	$bname = "Unavailable";
+            	$bname = "UNAVAILABLE";
             }
             
     if ($result1 == true) {
     send_message($chat_id,$message_id,"***VALID BIN✅
 ┏━━━━━━━━━━━━━━━━━━
-┠⌬ BIN:*** $bin
+┠⌬ BIN:*** ---$bin---
 ***┠⌬ Brand: $brand
 ┠⌬ Level: $level
 ┠⌬ Bank: $bank
