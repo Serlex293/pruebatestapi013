@@ -66,16 +66,16 @@ if(strpos($message, ".bin") === 0){
             }
             
     if ($result1 == true) {
-    send_message($chat_id,$message_id,"***VALID BIN✅
+    send_message($chat_id,$message_id,"VALID BIN✅
 ┏━━━━━━━━━━━━━━━━━━
-┠⌬ BIN: $bin
-┠⌬ Brand: $brand
-┠⌬ Level: $level
-┠⌬ Bank: $bank
-┠⌬ Country: $country $flag
-┠⌬ Type: $type
+┠⌬ BIN: <code>$bin</code> $emoji
+┠⌬ Brand: <b><ins>$brand</ins></b>
+┠⌬ Level: <b><ins>$level</ins></b>
+┠⌬ Bank: <b><ins>$bank</ins></b>
+┠⌬ Country: <b><ins>$contry</ins> - <ins>$flag</ins></b>
+┠⌬ Type: <b><ins>$type</ins></b>
 ┗━━━━━━━━━━━━━━━━━━
- 〄Checked By: @$username"***);
+ 〄Checked By: @$username");
     }
 else {
     send_message($chat_id,$message_id, "***Oye negro, métete tu bin por el culo no me sirve❌***");
