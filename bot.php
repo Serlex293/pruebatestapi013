@@ -49,7 +49,7 @@ if(strpos($message, ".bin") === 0){
  $result1 = $data['result'];
 
     if ($result1 == true) {
-    send_message($chat_id,$message_id,"***VALID BIN✅
+    send_message($chat_id,$message_id,"***VALID BIN✅***
 ┏━━━━━━━━━━━━━━━━━━
 ┠⌬ BIN: <code>$bin</code>
 ┠⌬ Brand: $brand
