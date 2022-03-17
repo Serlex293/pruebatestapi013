@@ -58,8 +58,8 @@ if(strpos($message, ".bin") === 0){
 ┠⌬ Country: <>$country $flag<b>
 ┠⌬ Type: <b>$type<b>
 ┗━━━━━━━━━━━━━━━━━━
-<b>〄  Checked By: @$username ***");
-    }</b>
+ 〄Checked By: @$username ***");
+    }
 else {
     send_message($chat_id,$message_id, "***Oye negro, métete tu bin por el culo no me sirve❌***");
 }
