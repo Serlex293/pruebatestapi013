@@ -20,7 +20,7 @@ if(strpos($message, ".bin") === 0){
     $bin = substr($message, 5);
     $curl = curl_init();
     curl_setopt_array($curl, [
-    CURLOPT_URL => "https://binlist.pro/?".$bin,
+    CURLOPT_URL => "https://binlist.pro/?#check_section".$bin,
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_FOLLOWLOCATION => true,
     CURLOPT_ENCODING => "",
@@ -77,7 +77,7 @@ if(strpos($message, ".bin") === 0){
 〄 Checked By: @$username***");
     }
 else {
-    send_message($chat_id,$message_id, "***Oye negro, métete tu bin por el culo no me sirve❌***");
+    send_message($chat_id,$message_id, "***INVALID BIN❌***");
 }
 }
     function send_message($chat_id,$message_id, $message){
