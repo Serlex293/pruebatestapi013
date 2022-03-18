@@ -20,7 +20,7 @@ if(strpos($message, ".bin") === 0){
     $bin = substr($message, 5);
     $curl = curl_init();
     curl_setopt_array($curl, [
-    CURLOPT_URL => "https://bin-checker.net/api/".$bin,
+    CURLOPT_URL => "https://neutrinoapi.net/bin-lookup/".$bin,
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_FOLLOWLOCATION => true,
     CURLOPT_ENCODING => "",
