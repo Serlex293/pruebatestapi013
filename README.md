@@ -10,7 +10,7 @@ Test Bot: [Bin Checker Bot](https://t.me/phpBinBot)
 ## Deploy
 
 ### Heroku
-[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Serlex293/copifastbin01)
+[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Serlex293/pruebatestapi013)
 
 ### Railway
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FzYxDevs%2FBinCheckerBot&envs=API_TOKEN%2CSTART_MSG&API_TOKENDesc=Your+bot+token.&START_MSGDesc=Your+custom+start+message.&referralCode=AsunaRobot)
