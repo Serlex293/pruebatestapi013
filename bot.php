@@ -20,7 +20,7 @@ if(strpos($message, ".bin") === 0){
     $bin = substr($message, 5);
     $curl = curl_init();
     curl_setopt_array($curl, [
-    CURLOPT_URL => "https://binlist.pro/?#check_section".$bin,
+    CURLOPT_URL => "https://bin-checker.net/api/492910".$bin,
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_FOLLOWLOCATION => true,
     CURLOPT_ENCODING => "",
